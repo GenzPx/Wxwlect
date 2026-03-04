@@ -1,0 +1,76 @@
+{
+    "name": "Sakaffah - Pendamping Ibadah Ramadan",
+    "short_name": "Sakaffah",
+    "description": "Aplikasi pendamping ibadah Ramadan lengkap dengan jadwal sholat, dzikir, Al-Quran, dan banyak fitur lainnya",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0d1f12",
+    "theme_color": "#1e5631",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "id",
+    "dir": "ltr",
+    "categories": ["lifestyle", "education", "utilities"],
+    "icons": [
+        {
+            "src": "https://raw.githubusercontent.com/GenzPx/Wxwlect/refs/heads/main/sakaffah.logo.jpg",
+            "sizes": "192x192",
+            "type": "image/jpeg",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://raw.githubusercontent.com/GenzPx/Wxwlect/refs/heads/main/sakaffah.logo.jpg",
+            "sizes": "512x512",
+            "type": "image/jpeg",
+            "purpose": "any maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "https://raw.githubusercontent.com/GenzPx/Wxwlect/refs/heads/main/sakaffah.logo.jpg",
+            "sizes": "1080x1920",
+            "type": "image/jpeg",
+            "form_factor": "narrow"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Jadwal Sholat",
+            "short_name": "Sholat",
+            "description": "Lihat jadwal sholat hari ini",
+            "url": "/?page=home",
+            "icons": [
+                {
+                    "src": "https://raw.githubusercontent.com/GenzPx/Wxwlect/refs/heads/main/sakaffah.logo.jpg",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "Dzikir Counter",
+            "short_name": "Dzikir",
+            "description": "Hitung dzikir harian",
+            "url": "/?page=dzikir",
+            "icons": [
+                {
+                    "src": "https://raw.githubusercontent.com/GenzPx/Wxwlect/refs/heads/main/sakaffah.logo.jpg",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "Al-Quran",
+            "short_name": "Quran",
+            "description": "Baca Juz Amma",
+            "url": "/?page=quran",
+            "icons": [
+                {
+                    "src": "https://raw.githubusercontent.com/GenzPx/Wxwlect/refs/heads/main/sakaffah.logo.jpg",
+                    "sizes": "96x96"
+                }
+            ]
+        }
+    ],
+    "related_applications": [],
+    "prefer_related_applications": false
+}
